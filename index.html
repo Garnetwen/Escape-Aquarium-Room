@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>three.js WebRTC template</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link rel="icon" href="data:," />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+    </style>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.172.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.172.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- <input id="imageUrlInput" type="text" placeholder="Enter image URL" />
+    <button id="sendImage">Share Image</button>
+    <div id="sharedSpace"></div> 
+
+    <!-- Socket.IO and app -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
